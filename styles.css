@@ -11,24 +11,25 @@
     padding: 40px 0px;
 }
 .parent-container{
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
 .container1{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
-    gap: 80px;
-    width: 90%;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 800px;
     padding: 20px;
 }
 .gallery{
     /* max-width: 300px; */
-    width: 350px;
-    height: 200px;
+    width: 240px;
+    height: 150px;
 }
 .gallery img {
     width: 100%;
@@ -37,10 +38,10 @@
 }
 .container4{
     background-color: pink;
-    margin: 20px;
-    padding: 20px;
-    width: 95%;
+    /* margin: 20px; */
+    /* padding: 20px; */
+    width: 100%;
     color: rgb(167, 58, 76);
     text-align: center;
-    display: block;
+    display: block;padding: 40px 0px;
 }
